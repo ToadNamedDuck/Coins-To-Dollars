@@ -23,7 +23,6 @@ else
     {
         returnString += decimal.ToInt32(remainder / dime) + " dimes, ";
         remainder = remainder % dime;
-        Console.WriteLine(remainder);
     }
     if((remainder / nickel) < 1)
     {
